@@ -1,0 +1,150 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 80px;
+    background-color: #4c66a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    color: white;
+}
+
+.login{
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.usr{
+    margin-right: 5px;
+    color: white;
+}
+
+.pss{
+    margin-right: 5px;
+    color: white;
+}
+
+.btn{
+    height: 21px;
+    margin-top: 18px;
+    background-color: #4460b1;
+    color: white;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    color: #4c66a5;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.right{
+    width: 500px;
+    height: 700px;
+    margin-right: 250px;
+    margin-top: 40px;
+}
+
+.birthday{
+    display: flex;
+    align-items: center;
+}
+
+.up{
+    display: flex;
+    width: 100%;
+}
+
+.dn{
+    width: 100%;
+    margin: 5px;
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+}
+
+#mail{
+    font-size: 20px;
+    width: 100%;
+    margin: 8px 0px 8px 0px;
+}
+
+#fname{
+    font-size: 20px;
+    width: 50%;
+    margin-right: 8px;
+}
+
+#lname{
+    font-size: 20px;
+    width: 50%;
+}
+
+#pass{
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#p1{
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#month{
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+#day{
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+#year{
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+#p2{
+    font-size: 12px;
+}
+
+#btn{
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px;
+    background-color: #5e9a4a;
+}
+
+#link{
+    font-size: 13px;
+}
+
+h1{
+    margin: 0px;
+}
