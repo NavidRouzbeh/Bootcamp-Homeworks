@@ -1,0 +1,54 @@
+    .card{
+        width: 30%;
+        height: 184px;
+        padding: 8px;
+    border: {
+        radius: 5px;
+        width: 1px;
+        style: solid;
+        color: lightgrey;
+    }
+    }
+    .card__body {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .card__image{
+        height: 136px;
+        width: 136px;
+    }
+
+    figure{
+        padding: 0;
+        margin: 0;
+    }
+
+    .card__details{
+        display: flex;
+        flex-direction: column;
+        .card__title{
+            flex-grow: 1;
+        }
+        .card__price{
+            justify-content: flex-end;
+        }
+    }
+
+    .card__container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 13px;
+    }
+
+    header{
+        display: flex;
+        padding: 0 16px;
+    }
+
+    .logo{
+        width: 48px;
+        height: 48px;
+    }
+
