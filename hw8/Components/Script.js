@@ -1,4 +1,5 @@
-function sendToTable(i){
+let database = [];
+function sendToTable(){
     const firstName = document.getElementById('first_name').value;
     const lastName = document.getElementById('last_name').value;
     const age = document.getElementById('age').value;
@@ -33,7 +34,7 @@ function sendToTable(i){
         buttonEle.appendChild (deleteButton);
         tbodyElement.appendChild(trElement);
         tableElement.appendChild(tbodyElement);
-
+        database = [...database , {}]
 }
 
 
